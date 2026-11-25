@@ -1,0 +1,5 @@
+[
+  { name: 'mongo-0.mongo:27017', state: 'PRIMARY', health: 1 },
+  { name: 'mongo-1.mongo:27017', state: 'SECONDARY', health: 1 },
+  { name: 'mongo-2.mongo:27017', state: 'SECONDARY', health: 1 }
+]

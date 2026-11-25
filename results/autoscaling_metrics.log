@@ -1,0 +1,40 @@
+Sample 1: 0s | initial_low | CPU 6% | replicas 1/1
+Sample 2: 15s | initial_low | CPU 7% | replicas 1/1
+Sample 3: 30s | initial_low | CPU 7% | replicas 1/1
+Sample 4: 45s | initial_low | CPU 7% | replicas 1/1
+Sample 5: 60s | initial_low | CPU 7% | replicas 1/1
+Sample 6: 75s | initial_low | CPU 36% | replicas 1/1
+Sample 7: 90s | initial_low | CPU 36% | replicas 1/1
+Sample 8: 106s | initial_low | CPU 36% | replicas 1/1
+Sample 9: 121s | high_load | CPU 36% | replicas 1/1
+Sample 10: 136s | high_load | CPU 33% | replicas 1/1
+Sample 11: 151s | high_load | CPU 33% | replicas 1/1
+Sample 12: 166s | high_load | CPU 33% | replicas 1/1
+Sample 13: 181s | high_load | CPU 33% | replicas 1/1
+Sample 14: 196s | high_load | CPU 207% | replicas 1/4
+Sample 15: 211s | high_load | CPU 207% | replicas 4/5
+Sample 16: 227s | high_load | CPU 207% | replicas 5/5
+Sample 17: 242s | high_load | CPU 207% | replicas 5/5
+Sample 18: 257s | high_load | CPU 236% | replicas 5/5
+Sample 19: 282s | high_load | CPU 236% | replicas 5/5
+Sample 20: 298s | high_load | CPU 236% | replicas 5/5
+Sample 21: 318s | high_load | CPU % | replicas 5/5
+Sample error at 338s: Command '['kubectl', 'get', 'hpa', 'emi-web', '-n', 'emi', '-o', 'json']' timed out after 10 seconds
+Sample 22: 363s | high_load | CPU % | replicas 5/5
+Sample 23: 384s | high_load | CPU % | replicas 5/5
+Sample 24: 399s | high_load | CPU % | replicas 5/5
+Sample 25: 415s | high_load | CPU % | replicas 5/5
+Sample 26: 430s | final_low | CPU % | replicas 5/5
+Sample 27: 446s | final_low | CPU % | replicas 5/5
+Sample 28: 461s | final_low | CPU % | replicas 5/5
+Sample 29: 476s | final_low | CPU % | replicas 5/5
+Sample 30: 493s | final_low | CPU 111% | replicas 5/5
+Sample 31: 508s | final_low | CPU 113% | replicas 5/5
+Sample 32: 523s | final_low | CPU 35% | replicas 5/5
+Sample 33: 538s | final_low | CPU 35% | replicas 5/5
+Sample 34: 553s | final_low | CPU 35% | replicas 5/5
+Sample 35: 568s | final_low | CPU 35% | replicas 5/5
+Sample 36: 584s | final_low | CPU 23% | replicas 5/5
+Sample 37: 599s | final_low | CPU 23% | replicas 5/5
+Metrics saved: results/autoscaling_metrics.csv
+Total samples: 37

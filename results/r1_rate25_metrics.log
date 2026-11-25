@@ -1,0 +1,4 @@
+Collecting host CPU and pod metrics for 65 seconds...
+Profiling completed.
+Host CPU data: results/r1_rate25_host_cpu.csv
+Pod metrics: results/r1_rate25_pod_metrics.csv

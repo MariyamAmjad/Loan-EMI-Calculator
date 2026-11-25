@@ -1,0 +1,4 @@
+Collecting host CPU and pod metrics for 17 seconds...
+Profiling completed.
+Host CPU data: results/combined_smoke_host_cpu.csv
+Pod metrics: results/combined_smoke_pod_metrics.csv

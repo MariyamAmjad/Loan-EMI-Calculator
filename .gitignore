@@ -1,3 +1,25 @@
-node_modules/
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
+# Node.js dependencies and logs
+node_modules/
+npm-debug.log*
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.backup
+*.tmp
+backup/

@@ -1,0 +1,13 @@
+{
+    "label": "combined_smoke",
+    "target_requests_per_second": 2,
+    "duration_seconds": 15,
+    "scheduled_requests": 30,
+    "completed_requests": 30,
+    "successful_requests": 30,
+    "error_count": 0,
+    "average_response_time_ms": 24.466,
+    "elapsed_seconds_including_completion": 14.509,
+    "completed_requests_per_second": 2.068,
+    "csv_file": "results/combined_smoke.csv"
+}

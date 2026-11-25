@@ -1,0 +1,13 @@
+{
+    "label": "r1_rate200",
+    "target_requests_per_second": 200,
+    "duration_seconds": 60,
+    "scheduled_requests": 12000,
+    "completed_requests": 12000,
+    "successful_requests": 3211,
+    "error_count": 8789,
+    "average_response_time_ms": 2844.59,
+    "elapsed_seconds_including_completion": 125.503,
+    "completed_requests_per_second": 95.615,
+    "csv_file": "results/r1_rate200.csv"
+}

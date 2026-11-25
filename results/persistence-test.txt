@@ -1,0 +1,14 @@
+PVC after pod recreation:
+NAME                 STATUS   VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   VOLUMEATTRIBUTESCLASS   AGE
+mongo-data-mongo-1   Bound    pvc-9ab9d8ee-c502-4db3-8800-831757045683   1Gi        RWO            standard       <unset>                 28m
+Recreated pod:
+NAME      READY   STATUS    RESTARTS   AGE
+mongo-1   1/1     Running   0          4m28s
+Replica set status:
+[
+  { name: 'mongo-0.mongo:27017', state: 'PRIMARY', health: 1 },
+  { name: 'mongo-1.mongo:27017', state: 'SECONDARY', health: 1 },
+  { name: 'mongo-2.mongo:27017', state: 'SECONDARY', health: 1 }
+]
+Document count:
+1

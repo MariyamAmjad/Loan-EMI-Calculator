@@ -1,0 +1,13 @@
+{
+    "label": "smoke_test",
+    "target_requests_per_second": 2,
+    "duration_seconds": 5,
+    "scheduled_requests": 10,
+    "completed_requests": 10,
+    "successful_requests": 10,
+    "error_count": 0,
+    "average_response_time_ms": 17.405,
+    "elapsed_seconds_including_completion": 4.509,
+    "completed_requests_per_second": 2.218,
+    "csv_file": "results/smoke_test.csv"
+}

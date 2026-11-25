@@ -1,0 +1,13 @@
+{
+    "label": "r3_rate50",
+    "target_requests_per_second": 50,
+    "duration_seconds": 60,
+    "scheduled_requests": 3000,
+    "completed_requests": 3000,
+    "successful_requests": 3000,
+    "error_count": 0,
+    "average_response_time_ms": 24.301,
+    "elapsed_seconds_including_completion": 59.996,
+    "completed_requests_per_second": 50.003,
+    "csv_file": "results/r3_rate50.csv"
+}

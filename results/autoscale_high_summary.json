@@ -1,0 +1,13 @@
+{
+    "label": "autoscale_high",
+    "target_requests_per_second": 100,
+    "duration_seconds": 300,
+    "scheduled_requests": 30000,
+    "completed_requests": 30000,
+    "successful_requests": 21175,
+    "error_count": 8825,
+    "average_response_time_ms": 1689.167,
+    "elapsed_seconds_including_completion": 300.232,
+    "completed_requests_per_second": 99.923,
+    "csv_file": "results/autoscale_high.csv"
+}
